@@ -1,0 +1,10 @@
+{
+    "cache": false,
+    "extension": [".ts"],
+    "check-coverage": true,
+    "include": ["src/**"],
+    "statements": 74,
+    "branches": 65,
+    "functions": 65,
+    "lines": 76
+}

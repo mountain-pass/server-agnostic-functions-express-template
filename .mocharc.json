@@ -1,0 +1,8 @@
+{
+    "extension": ["js", "ts"],
+    "package": "./package.json",
+    "reporter": "spec",
+    "timeout": 20000,
+    "ui": "bdd",
+    "watch-files": ["src/**/*.{ts,js}", "test/**/*.{ts,js}"]
+}

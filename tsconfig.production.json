@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "outDir": "dist",
+        "lib": [
+            "es2015"
+        ],
+        "declaration": true,
+        "module": "commonjs",
+        "types": ["node"],
+        "strict": false
+      },
+      "exclude": ["node_modules", "examples", "dist", "test"],
+    "ts-node": {
+        // It is faster to skip typechecking.
+        // Remove if you want ts-node to do typechecking.
+        "transpileOnly": true,
+        "files": true,
+        "compilerOptions": {
+            "allowSyntheticDefaultImports": true,
+            "esModuleInterop": true,
+            "sourceMap": true,
+            "resolveJsonModule": true,
+            "outDir": "dist",
+            "types": ["node"]
+        }
+    }
+}
